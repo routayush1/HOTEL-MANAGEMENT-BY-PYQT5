@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>793</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>19</x>
+      <y>10</y>
+      <width>761</width>
+      <height>571</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame{background-color: #3F9CED
+;
+
+}
+
+</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="CHECKINN">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>30</y>
+       <width>431</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Product Sans</family>
+       <pointsize>24</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton:active:after{
+
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 1s;
+-webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+
+    background-color:#19707D;
+    color: white;
+
+   }
+</string>
+     </property>
+     <property name="text">
+      <string>CHECK INN</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="GETINFO">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>140</y>
+       <width>431</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Product Sans</family>
+       <pointsize>24</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton:active:after{
+
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 1s;
+-webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+
+    background-color:#19707D;
+    color: white;
+
+   }
+</string>
+     </property>
+     <property name="text">
+      <string>GET INFORMATION</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="CHECKOUT">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>250</y>
+       <width>431</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Product Sans</family>
+       <pointsize>24</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton:active:after{
+
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 1s;
+-webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+
+    background-color:#19707D;
+    color: white;
+
+   }
+</string>
+     </property>
+     <property name="text">
+      <string>CHECK OUT</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="LISTOFALLGUEST">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>360</y>
+       <width>431</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Product Sans</family>
+       <pointsize>24</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton:active:after{
+
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 1s;
+-webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+
+    background-color:#19707D;
+    color: white;
+
+   }
+</string>
+     </property>
+     <property name="text">
+      <string>LIST OF ALL GUEST</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="EXIT">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>470</y>
+       <width>431</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Product Sans</family>
+       <pointsize>24</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton:active:after{
+
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 1s;
+-webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+
+    background-color:#19707D;
+    color: white;
+
+   }
+</string>
+     </property>
+     <property name="text">
+      <string>EXIT</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
